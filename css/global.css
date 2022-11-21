@@ -1,0 +1,16 @@
+:root{
+    --pink: #d05270;
+    --purple: #5a47ab;
+    --grey: #7b7b7b;
+    --blue_twitter: #47acdf;
+    --blue_linkedin: #1275b1;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: var(--pink);
+    font-family: 'Abril Fatface', cursive;
+}
