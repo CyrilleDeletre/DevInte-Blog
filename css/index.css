@@ -35,7 +35,7 @@ main img{
     margin-left: 50px;
 }
 
-article{
+.homepage-main{
     /* grid-area: a / span 2 / span 2; */
     margin-top: 30px;
     width: 65%;
@@ -73,4 +73,43 @@ a i{
 .btn-res-global{
     display: flex;
     justify-content: space-between;
+}
+
+.article-one{
+    max-width: 49%;
+    min-width: 49%;
+    
+}
+
+.article-one img{
+    width: 100%;
+}
+
+.article-all{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.art-date{
+    font-weight: bold;
+    color: var(--dark_gray);
+}
+
+.art-title{
+    color: var(--pink);
+    font-size: x-large;
+}
+.art-desc{
+    color: var(--dark_gray)
+}
+.art-show{
+    color: var(--pink);
+}
+
+.underline{
+    text-decoration: underline;
 }
