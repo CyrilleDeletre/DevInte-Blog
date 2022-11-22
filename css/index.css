@@ -16,6 +16,7 @@ h2{
     color: var(--dark_gray);
 }
 
+
 main{
     margin-left: 40px;
     display: flex;
@@ -70,6 +71,7 @@ a i{
 .btn-res-global{
     display: flex;
     justify-content: space-between;
+    margin-left: -5px;
 }
 
 .twi-btn:hover{
@@ -97,7 +99,7 @@ a i{
     max-width: 49%;
     min-width: 49%;
     margin-bottom: 50px;
-    
+    margin-left: -5px;
 }
 
 .article-one img{
