@@ -37,22 +37,7 @@ a:hover{
 a[href="./index.html"]{
     color: var(--purple)
 }
-
 h1{
-    color: var(--purple);
-}
-h2{
-    color: var(--blue_twitter);
-}
-
-h3{
-    color: var(--black);
-}
-h4{
-    color:var(--black);
-}
-
-.changement {
-    color: aqua;
-    font-size: 50px;
+    margin-left: 45px;
+    
 }
