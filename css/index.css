@@ -8,10 +8,6 @@
     --black: #000000;
 }
 
-a[href="./index.html"]{
-    color: var(--purple)
-}
-
 h1, h2{
     font-size: 50px;
 }
@@ -127,15 +123,27 @@ a i{
     color: var(--pink);
     font-size: x-large;
 }
+
 .art-desc{
     color: var(--dark_gray)
 }
+
 .art-show{
     color: var(--pink);
+    display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
 }
+
+.art-show:before{
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 1px solid var(--pink);
+}
+
 .art-show:hover{
     color: #742f3f;
-}
-.underline{
-    text-decoration: underline;
 }
