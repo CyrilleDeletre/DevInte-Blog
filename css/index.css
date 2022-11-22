@@ -3,41 +3,28 @@
     --pink: #d05270;
     --purple: #5a47ab;
     --grey: #7b7b7b;
+    --dark_gray: #424242;
     --blue_twitter: #47acdf;
     --blue_linkedin: #1275b1;
     --black: #000000;
 }
 
-body{
-
-    margin-left: 20%;
-    margin-right: 20%;
-}
-li{
-    list-style: none;
-    display: inline;
-    margin-left: 25px;
-}
-nav{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-a{
-    font-weight: bold;
-    text-decoration: none;
-    color: var(--grey);
-}
-
-a:hover{
-    color: var(--purple);
-}
 a[href="./index.html"]{
     color: var(--purple)
 }
+main{
+    margin-left: 40px;
+}
 h1{
-    margin-left: 45px;
-    
+    font-size: 40px;
+}
+h2{
+    font-size: 40px;
+    color: var(--dark_gray);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
