@@ -15,16 +15,64 @@ a[href="./index.html"]{
 main{
     margin-left: 40px;
 }
-h1{
-    font-size: 40px;
+h1, h2{
+    font-size: 50px;
 }
 h2{
-    font-size: 40px;
     color: var(--dark_gray);
 }
 
 main{
+display: grid;
+grid-template-areas: "a b c d e"
+                        "f g h i j "
+
+}
+
+main img{
+    width: 80%;
+    grid-area: c / span 2 / span 2;
+    margin-left: 50px;
+}
+
+article{
+    grid-area: a / span 2 / span 2;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.res-btn{
+    color:white;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 5px;
+    font-size: 12px;
+}
+.twi-btn{
+    background-color: var(--blue_twitter);
+    width: 33%;
+    text-align: center;
+}
+.lin-btn{
+    background-color: var(--blue_linkedin);
+    width: 33%;
+    text-align: center;
+}
+.med-btn{
+    background-color: var(--black);
+    width: 33%;
+    text-align: center;
+}
+
+article p{
+    margin-bottom: 40px;
+}
+
+a i{
+    margin-right: 15px;
+}
+.btn-res-global{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+    justify-content: space-between;
 }
