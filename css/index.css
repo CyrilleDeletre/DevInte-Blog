@@ -24,27 +24,28 @@ main{
     margin-left: 40px;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
     /* display: grid;
     grid-template-areas: "a b c d"; */
 }
 
-main img{
+.main-img{
     /* grid-area: c / span 2 / span 2; */
-    min-width: 200px;
-    max-width: 400px;
-    margin-left: 50px;
+    width: 400px;
+    height: 100%;
 }
 
 .homepage-main{
     /* grid-area: a / span 2 / span 2; */
     margin-top: 30px;
-    width: 65%;
+    max-width: 50%;
 }
 
 .res-btn{
     color:white;
     padding: 20px;
-    padding-left: 40px;
+    padding-left: 35px;
     padding-right: 40px;
     margin: 5px;
     font-size: 12px;
@@ -75,9 +76,31 @@ a i{
     justify-content: space-between;
 }
 
+.twi-btn:hover{
+    background-color: #337799;
+    color: white
+}
+
+.lin-btn:hover{
+    background-color: rgb(26, 61, 78);
+    color: white
+}
+
+.med-btn:hover{
+    background-color: #4e4e4e;
+    color: white
+}
+
+
+
+/* Articles */
+
+
+
 .article-one{
     max-width: 49%;
     min-width: 49%;
+    margin-bottom: 50px;
     
 }
 
@@ -87,7 +110,8 @@ a i{
 
 .article-all{
     margin-top: 50px;
-    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-left: 45px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -109,7 +133,9 @@ a i{
 .art-show{
     color: var(--pink);
 }
-
+.art-show:hover{
+    color: #742f3f;
+}
 .underline{
     text-decoration: underline;
 }
