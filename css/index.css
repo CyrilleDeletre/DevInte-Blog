@@ -5,6 +5,7 @@
     --grey: #7b7b7b;
     --blue_twitter: #47acdf;
     --blue_linkedin: #1275b1;
+    --black: #000000;
 }
 
 body{
@@ -42,4 +43,8 @@ h1{
 }
 h2{
     color: var(--blue_twitter);
+}
+
+h3{
+    color: var(--black);
 }
