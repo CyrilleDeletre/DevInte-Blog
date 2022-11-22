@@ -1,3 +1,12 @@
+
+:root{
+    --pink: #d05270;
+    --purple: #5a47ab;
+    --grey: #7b7b7b;
+    --blue_twitter: #47acdf;
+    --blue_linkedin: #1275b1;
+}
+
 body{
 
     margin-left: 20%;
@@ -26,4 +35,8 @@ a:hover{
 }
 a[href="./index.html"]{
     color: var(--purple)
+}
+
+h1{
+    color: var(--pink);
 }
