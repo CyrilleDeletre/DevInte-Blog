@@ -8,6 +8,10 @@
     --black: #000000;
 }
 
+
+/* Début En-tête */
+
+
 h1, h2{
     font-size: 50px;
 }
@@ -64,12 +68,13 @@ main{
 }
 
 a i{
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .btn-res-global{
     display: flex;
     justify-content: space-between;
+    margin-left: -5px;
 }
 
 .twi-btn:hover{
@@ -88,16 +93,18 @@ a i{
 }
 
 
+/* Fin En-tête */
 
-/* Articles */
 
+
+/* Début Articles */
 
 
 .article-one{
     max-width: 49%;
     min-width: 49%;
     margin-bottom: 50px;
-    
+    margin-left: -5px;
 }
 
 .article-one img{
@@ -105,7 +112,7 @@ a i{
 }
 
 .article-all{
-    margin-top: 50px;
+    margin-top: 150px;
     margin-bottom: 50px;
     margin-left: 45px;
     width: 100%;
@@ -147,3 +154,5 @@ a i{
 .art-show:hover{
     color: #742f3f;
 }
+
+/* Fin Articles */
