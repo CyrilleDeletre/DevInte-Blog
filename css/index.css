@@ -8,6 +8,11 @@
     --black: #000000;
 }
 
+@keyframes example {
+    from {width: 75%;}
+    to {width: 99%;}
+  }
+  
 
 .logo-button:hover{
     opacity: 0.8;
@@ -64,10 +69,14 @@
     height: 1px;
     bottom: 0;
     border-bottom: 1px solid var(--pink);
+    transition: width 0.3s ease-out 100ms
 }
 
 .art-show:hover{
     color: #742f3f;
+}
+.art-show:hover::before{
+    width: 100%;
 }
 
 /* Fin Articles */
