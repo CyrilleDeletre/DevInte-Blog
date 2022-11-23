@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<!--instructions-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,28 +20,33 @@
     <!--icônes-->
 
     <title>Blog</title>
+    <!--instructions-->
+
+    <!--debut header-->
 </head>
 
 <body>
-    <header>
-
-        <nav>
-
-            <img src="./imgs/logo.png" alt="Logo">
-
-            <ul>
-                <li><a href="./blog.html">BLOG</a></li>
-                <li><a href="#">CV</a></li>
-                <li><a href="./about.html">A PROPOS</a></li>
-                <li><a href="./contact.html">CONTACT</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
 
     <main>
-        <article>
+
+        <header>
+
+            <nav>
+                <img src="./imgs/logo.png" alt="Logo">
+
+                <ul>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="#">CV</a></li>
+                    <li><a href="./about.html">A PROPOS</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <!--fin header-->
+
+        <!--debut article-->
+        <article class="corps">
             <img class="imageprinc" src="imgs/img_blog.jpg" alt="">
 
             <section class="section1">
@@ -137,27 +144,38 @@
 
         </article>
 
+        <!--fin article-->
+
+        <!-- Début Footer -->
+
         <footer>
 
-            <div class=part1_foot>
+            <article class="homepage-main">
+
+
                 <h4>A propos de l'auteur</h4>
 
-                <p>Je m'appelle Yé Wrong, aussi connu sur les réseaux sociaux en tant que <span class=surnom>
-                        Squedrong</span>Je suis passionné d'infra et de tech en général depuis toujours, et je partage
-                    cette
-                    passion sur mon blog et en conférence depuis 2010. </p>
-                    
-                    <span class="btn-res-global">
-                        <a href="https://twitter.com" class="twi-btn res-btn"> <i class="fa-brands fa-twitter"></i> TWITTER</a>
-                        <a href="https://www.linkedin.com/" class="lin-btn res-btn"> <i class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
-                        <a href="https://medium.com/" class="med-btn res-btn"> <i class="fa-brands fa-medium"></i> MEDIUM</a>
-                    </span>
- 
-            </div>
+                <p>Je m'appelle Yé Wong, aussi connu sur les réseaux sociaux en tant que Squedrong, Je suis passionné
+                    d'infra et de tech en général depuis toujours, et je partage cette passion sur mon blog et en
+                    conférence depuis 2010. </p>
 
-            <img class= "footer_image" src="./imgs/illustration.png" alt="Dessin de quelqu'un qui lit sous un arbre">
-  
+                <span class="btn-res-global">
+                    <a href="https://twitter.com" class="twi-btn res-btn"> <i class="fa-brands fa-twitter"></i>
+                        TWITTER</a>
+                    <a href="https://www.linkedin.com/" class="lin-btn res-btn"> <i
+                            class="fa-brands fa-linkedin-in"></i> LINKEDIN</a>
+                    <a href="https://medium.com/" class="med-btn res-btn"> <i class="fa-brands fa-medium"></i>
+                        MEDIUM</a>
+                </span>
+
+            </article>
+
+            <img src="./imgs/illustration.png" alt="Dessin de quelqu'un qui lit sous un arbre" class="main-img">
+
         </footer>
+
+
+        <!-- Fin Footer -->
 
 
     </main>
