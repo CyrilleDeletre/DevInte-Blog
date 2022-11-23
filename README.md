@@ -111,8 +111,11 @@ Afin de mener à bien ce projet nous avons eu une maquette de deux des pages du 
 ## Contributions
 
 Les contributions sont ce qui fait de la communauté open source un endroit extraordinaire pour apprendre, s'inspirer et créer. Toutes vos contributions sont **grandement appréciées**.
+
 Si vous avez une suggestion qui permettrait d'améliorer cette version, veuillez forker le dépôt et créer une pull request.
+
 Vous pouvez aussi simplement ouvrir un problème avec le tag "enhancement".
+
 N'oubliez pas de donner une étoile au projet ! Merci encore !
 
 
