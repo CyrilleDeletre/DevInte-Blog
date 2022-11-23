@@ -4,10 +4,10 @@ h1{
 }
 h2{
     color: #5a47ab;
+    margin-top: 50PX;
+    margin-bottom: -2px;
 }
-h3{
-    color: #5a47ab;
-}
+
 * {
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,4 +15,24 @@ h3{
 h1{
     color: var(--pink);
     font-family: 'Abril Fatface', cursive;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 56%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+   margin-top: -20px;
+}
+
+.info{ 
+  width: 30%;
+  height: auto;
+    float: left;
+    margin-top: 30px;
+}
+
+a[href="./about.html"]{
+    color: var(--purple)
 }
