@@ -1,19 +1,11 @@
-:root{
-    --pink: #d05270;
-    --purple: #5a47ab;
-    --grey: #7b7b7b;
-    --dark_gray: #424242;
-    --blue_twitter: #47acdf;
-    --blue_linkedin: #1275b1;
-    --black: #000000;
-}
-
 @keyframes example {
     from {width: 75%;}
     to {width: 99%;}
-  }
-  
+}
 
+h2{
+    color: var(--black);
+}
 .logo-button:hover{
     opacity: 0.8;
 }
@@ -73,7 +65,7 @@
 }
 
 .art-show:hover{
-    color: #742f3f;
+    color: var(--pink-darker);
 }
 .art-show:hover::before{
     width: 100%;

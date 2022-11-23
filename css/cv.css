@@ -1,14 +1,3 @@
-
-:root{
-    --pink: #d05270;
-    --purple: #5a47ab;
-    --grey: #7b7b7b;
-    --dark_gray: #424242;
-    --blue_twitter: #47acdf;
-    --blue_linkedin: #1275b1;
-    --black: #000000;
-}
-
 a[href="./cv.html"]{
     color: var(--purple)
 }

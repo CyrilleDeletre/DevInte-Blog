@@ -1,20 +1,6 @@
-h1{
-    color: #d05270;
-    font-size: 40px;
-}
 h2{
-    color: #5a47ab;
     margin-top: 50px;
     margin-bottom: -2px;
-}
-
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h1{
-    color: var(--pink);
-    font-family: 'Abril Fatface', cursive;
 }
 
 .container{

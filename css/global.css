@@ -1,9 +1,37 @@
 :root{
     --pink: #d05270;
+    --pink-darker: #742f3f;
+    --pink-opacity: #d0526f30;
     --purple: #5a47ab;
+    --purple-opacity: #5947ab1c;
     --grey: #7b7b7b;
+    --lightgrey:#afafaf;
+    --dark_gray: #424242;
     --blue_twitter: #47acdf;
     --blue_linkedin: #1275b1;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    color: var(--pink);
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+}
+
+h2{
+    color: var(--purple);
+}
+
+h4{
+    margin-top: 55px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: var(--pink);
 }
 
 body{
@@ -35,24 +63,6 @@ a{
 a:hover{
     color: var(--purple);
 }
-
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h1{
-    color: var(--pink);
-    font-family: 'Abril Fatface', cursive;
-}
-
-h4{
-    margin-top: 55px;
-    margin-bottom: 0px;
-    font-size: 25px;
-    color: var(--pink);
-}
-
-
 
 /* Début En-tête */
 
