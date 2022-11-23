@@ -9,11 +9,6 @@
 }
 
 
-.mainpage-header{
-    margin-left: 40px;
-}
-
-
 /* Début Articles */
 
 .article-one{
@@ -30,7 +25,7 @@
 .article-all{
     margin-top: 150px;
     margin-bottom: 50px;
-    margin-left: 45px;
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
