@@ -58,7 +58,6 @@ input{
     background-color: var(--purple-opacity);
     border: none;
     outline: none;
-    border-radius: 5px;
 }
 
 input:focus{
@@ -97,21 +96,29 @@ textarea:focus{
 }
 
 .send{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 100px;
     background-color: var(--pink);
     color: var(--white);
-    border-radius: 10px;
     border: none;
+    padding: 10px;
 }
 
 .send:hover{
     background-color: var(--pink-darker);
     color: var(--white);
-    border-radius: 10px;
 }
 
 .infos{
     font-size: 13px;
     margin-top: 30px;
+}
+
+
+.span-bold{
+    display: block;
+}
+
+span{
+    font-weight: bold;
 }
