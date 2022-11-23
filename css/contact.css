@@ -29,6 +29,7 @@ h1{
 
 .form-header{
     width: 100%;
+    font-weight: bold;
 }
 
 fieldset{
