@@ -78,6 +78,11 @@ textarea{
     width:60%;
     background-color: var(--purple-opacity);
     border: none;
+    outline: none;
+}
+
+textarea:focus{
+    background-color: var(--pink-opacity);
 }
 
 .checkbox{
