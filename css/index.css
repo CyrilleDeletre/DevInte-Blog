@@ -8,8 +8,13 @@
     --black: #000000;
 }
 
-/* Début Articles */
 
+.mainpage-header{
+    margin-left: 40px;
+}
+
+
+/* Début Articles */
 
 .article-one{
     max-width: 49%;
