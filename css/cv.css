@@ -9,34 +9,12 @@
     --black: #000000;
 }
 
-a[href="./blog.html"]{
+a[href="./cv.html"]{
     color: var(--purple)
 }
 
-.imageprinc {
+.cv{
     width: 100%;
-    height: auto;
+	height: 100%;
 }
 
-h1{
-    font-size: 30px;
-    color: var(--pink);
-}
-
-h2, h3{
-    color: var(--purple)
-}
-
-h1, h2, h3{
-    margin-top: 50px;
-    margin-bottom: 35px;
-}
-
-
-.corps{
-    margin-top: 50px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
