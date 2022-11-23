@@ -147,5 +147,5 @@ Lien du projet: [https://github.com/Soaen/DevInte-Blog](https://github.com/DevIn
 [issues-shield]: https://img.shields.io/github/issues/Soaen/DevInte-Blog.svg?style=for-the-badge
 [issues-url]: https://github.com/Soaen/DevInte-Blog/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: [https://linkedin.com/in/linkedin_username](https://www.linkedin.com/in/sylvainvansteenkiste/)
+[linkedin-url]: [https://linkedin.com/in/sylvainvansteenkiste](https://www.linkedin.com/in/sylvainvansteenkiste/)
 [product-screenshot]: images/screenshot.png
