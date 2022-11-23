@@ -25,10 +25,14 @@ h1{
     width: 30%;
     height: auto;
     float: left;
-    margin-top: 30px;
     margin-right: 30px;
 }
 
 a[href="./about.html"]{
     color: var(--purple)
+}
+
+.text-about{
+    font-weight: bold;
+    font-size: 17px;
 }
