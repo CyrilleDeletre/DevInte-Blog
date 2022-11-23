@@ -86,8 +86,8 @@ Afin de mener à bien ce projet nous avons eu une maquette de deux des pages du 
 
 ### Langages Utilisés
 
-* ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-* ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+* [![HTML5][html.com]][html-url]
+* [![CSS3][css.com]][css-url]
 
 ### Installation
 
@@ -155,3 +155,7 @@ Lien du projet: [https://github.com/Soaen/DevInte-Blog](https://github.com/DevIn
 [issues-shield]: https://img.shields.io/github/issues/Soaen/DevInte-Blog.svg?style=for-the-badge
 [issues-url]: https://github.com/Soaen/DevInte-Blog/issues
 [product-screenshot]: images/screenshot.png
+[html.com]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[html-url]: https://html.com/
+[css.com]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
+[css-url]: https://www.w3.org/Style/CSS/
