@@ -28,7 +28,7 @@ h1{
 }
 
 .form-header{
-    width: 90%;
+    width: 100%;
 }
 
 fieldset{
@@ -54,7 +54,7 @@ label{
 }
 
 input{
-    width: 60%;
+    width: 69%;
     background-color: var(--purple-opacity);
     border: none;
     outline: none;
@@ -74,7 +74,7 @@ input:focus{
    }
 
 textarea{
-    width:60%;
+    width:69%;
     background-color: var(--purple-opacity);
     border: none;
     outline: none;
@@ -92,7 +92,7 @@ textarea:focus{
 
 .consent{
     margin-top: 20px;
-    width: 90%;
+    width: 97%;
 }
 
 .send{
@@ -110,8 +110,9 @@ textarea:focus{
 }
 
 .infos{
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 30px;
+    width: 100%;
 }
 
 
