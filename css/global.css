@@ -45,6 +45,13 @@ h1{
     font-family: 'Abril Fatface', cursive;
 }
 
+h4{
+    margin-top: 55px;
+    margin-bottom: 0px;
+    font-size: 25px;
+    color: var(--pink);
+}
+
 
 
 /* Début En-tête */
