@@ -22,7 +22,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -146,6 +145,4 @@ Lien du projet: [https://github.com/Soaen/DevInte-Blog](https://github.com/DevIn
 [stars-url]: https://github.com/Soaen/DevInte-Blog/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Soaen/DevInte-Blog.svg?style=for-the-badge
 [issues-url]: https://github.com/Soaen/DevInte-Blog/issues
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: [https://linkedin.com/in/sylvainvansteenkiste](https://www.linkedin.com/in/sylvainvansteenkiste/)
 [product-screenshot]: images/screenshot.png
