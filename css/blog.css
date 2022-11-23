@@ -13,8 +13,6 @@ a[href="./blog.html"]{
     color: var(--purple)
 }
 
-
-
 .imageprinc {
     width: 100%;
     height: auto;
@@ -51,57 +49,10 @@ footer{
     grid-template-areas: "a b c d"; */
 }
 
-
-
-.res-btn{
-    color:white;
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 5px 5px 5px 0;
-    font-size: 12px;
-    text-align: center;
-}
-
-.twi-btn{
-    background-color: var(--blue_twitter);
-    width: 33%;
-}
-
-.lin-btn{
-    background-color: var(--blue_linkedin);
-    width: 33%;
-}
-
-.med-btn{
-    background-color: var(--black);
-    width: 33%;
-}
-
-
-.btn-res-global{
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
 .corps{
     margin-top: 50px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.main-img{
-    /* grid-area: c / span 2 / span 2; */
-    width: 400px;
-    height: 100%;
-}
-
-.homepage-main{
-    /* grid-area: a / span 2 / span 2; */
-    margin-top: 30px;
-    max-width: 50%;
 }
