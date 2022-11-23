@@ -1,3 +1,4 @@
+
 :root{
     --pink: #d05270;
     --purple: #5a47ab;
@@ -12,12 +13,7 @@ a[href="./blog.html"]{
     color: var(--purple)
 }
 
-main{
-    margin-left: 0px;
-    display: flex;
-    flex-wrap: wrap;
 
-}
 
 .imageprinc {
     width: 100%;
@@ -46,7 +42,7 @@ h4{
 }
 
 footer{
-    margin-left: 40px;
+    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -62,7 +58,7 @@ footer{
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    margin: 5px;
+    margin: 5px 5px 5px 0;
     font-size: 12px;
     text-align: center;
 }
@@ -90,24 +86,22 @@ footer{
 
 
 
-article{
+.corps{
     margin-top: 50px;
-    margin-left: 50px;
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.part1_foot{
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer_image{
+.main-img{
+    /* grid-area: c / span 2 / span 2; */
     width: 400px;
     height: 100%;
+}
+
+.homepage-main{
+    /* grid-area: a / span 2 / span 2; */
+    margin-top: 30px;
+    max-width: 50%;
 }
