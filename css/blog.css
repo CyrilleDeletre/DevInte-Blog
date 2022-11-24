@@ -7,10 +7,6 @@ a[href="./blog.html"]{
     height: auto;
 }
 
-h1{
-    font-size: 30px;
-}
-
 h3{
     color: var(--purple)
 }
