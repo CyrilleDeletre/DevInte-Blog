@@ -64,6 +64,11 @@ a:hover{
     color: var(--purple);
 }
 
+.logo-button:hover{
+    opacity: 0.8;
+}
+
+
 /* Début En-tête */
 
 
